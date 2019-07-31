@@ -5,7 +5,7 @@ collection = []
 i = 0 
   while i < array.length
   binding.pry
-    yield(array[i])
+    collection << yield(array[i])
   end
   collection
 end
