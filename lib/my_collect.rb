@@ -9,7 +9,7 @@ i = 0
   end
   collection
 end
-binding.pry
+
 array = ["Tim Jones", "Tom Smith", "Jim Camp"]
 
 my_collect(array) do |name|
